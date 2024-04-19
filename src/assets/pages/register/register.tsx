@@ -10,7 +10,7 @@ function Register() {
   
       useEffect(() => {
         if (localStorage.getItem("token")) {
-          navigate("/");
+          navigate("/login");
         }
       }, []);
   
